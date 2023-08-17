@@ -1,6 +1,10 @@
 {
+  "scripts": {
+    "html-report": "cypress run --spec cypress/e2e/all.cy.js --browser chrome --headed"
+  },
   "devDependencies": {
-    "cypress": "^12.7.0"
+    "cypress": "^12.7.0",
+    "cypress-mochawesome-reporter": "^3.5.1"
   },
   "dependencies": {
     "@faker-js/faker": "^7.6.0"
